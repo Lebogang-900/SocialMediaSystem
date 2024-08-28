@@ -23,10 +23,13 @@ Before running the application, ensure that the `appsettings.json` file is confi
 ```json
 {
   "Facebook": {
+    "AppId": "your-facebook-app-id",
+    "AppSecret": "your-facebook-app-secret",
     "AccessToken": "your-facebook-access-token",
     "PageId": "your-facebook-page-id"
   }
 }
+
 ```
 
 ### File Structure
