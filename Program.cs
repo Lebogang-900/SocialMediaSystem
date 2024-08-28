@@ -78,7 +78,7 @@ namespace SocialMediaSystem
             _timer.Start();
         }
 
-        // Calculates the time interval until the next post (unchanged)
+        // Calculates the time interval until the next post
         static double GetIntervalToNextPost()
         {
             DateTime now = DateTime.Now;
